@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>next 6 day</title>
+  <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+  <header class="heading">Weather Forecast ⛅</header>
+<div class="body">
+  <div class="week">
+    <div id="a">
+        <h2></h2>
+      <strong id="currentDate1"></strong>
+        <h2 class="city">Weather in Delhi</h2>
+        <h1 class="temp">32°C</h1>
+          <div class="description">Cloudy</div>
+        <div class="humidity">Humidity: 25%</div>
+        <div class="wind">Wind speed: 10 km/h</div>
+      </div>
+    <div id="b">
+        <h2></h2>
+      <strong id="currentDate2"></strong>
+        <h2 class="city">Weather in Delhi</h2>
+        <h1 class="temp">33°C</h1>
+          <div class="description">Cloudy</div>
+        <div class="humidity">Humidity: 23%</div>
+        <div class="wind">Wind speed: 10 km/h</div>
+      </div>
+    <div id="c">
+        <h2></h2>
+      <strong id="currentDate3"></strong>
+        <h2 class="city">Weather in Delhi</h2>
+        <h1 class="temp">32°C</h1>
+          <div class="description">Cloudy</div>
+        <div class="humidity">Humidity: 25%</div>
+        <div class="wind">Wind speed: 11 km/h</div>
+      </div>
+    <div id="d">
+        <h2></h2>
+      <strong id="currentDate4"></strong>
+        <h2 class="city">Weather in Delhi</h2>
+        <h1 class="temp">33°C</h1>
+          <div class="description">Cloudy</div>
+        <div class="humidity">Humidity: 23%</div>
+        <div class="wind">Wind speed: 11 km/h</div>
+      </div>
+    <div id="e">
+        <h2></h2>
+      <strong id="currentDate5"></strong>
+        <h2 class="city">Weather in Delhi</h2>
+        <h1 class="temp">34°C</h1>
+          <div class="description">Cloudy</div>
+        <div class="humidity">Humidity: 19%</div>
+        <div class="wind">Wind speed: 13 km/h</div>
+      </div>
+    <div id="f">
+        <h2></h2>
+      <strong id="currentDate6"></strong>
+        <h2 class="city">Weather in Delhi</h2>
+        <h1 class="temp">35°C</h1>
+          <div class="description">Cloudy</div>
+        <div class="humidity">Humidity: 15%</div>
+        <div class="wind">Wind speed: 3 km/h</div>
+      </div>
+</div>
+</div>
+<footer id="footer">
+
+  <div class="footleft">Weather Forecast ⛅</div>
+  <div class="footright">
+    <a href="#" class="github"></a>
+    <a href="#" class="mail"></a>
+  </div>
+</footer>
+<script>
+    var today=new Date();
+    var date=(today.getDate()+1)+' /'+ (today.getMonth()+1)+' /' + today .getFullYear();
+    document.getElementById("currentDate1").innerHTML=date;
+    var today=new Date();
+    var date=(today.getDate()+2)+' /'+ (today.getMonth()+1)+' /' + today .getFullYear();
+    document.getElementById("currentDate2").innerHTML=date;
+    var today=new Date();
+    var date=(today.getDate()+3)+' /'+ (today.getMonth()+1)+' /' + today .getFullYear();
+    document.getElementById("currentDate3").innerHTML=date;
+    var today=new Date();
+    var date=(today.getDate()+4)+' /'+ (today.getMonth()+1)+' /' + today .getFullYear();
+    document.getElementById("currentDate4").innerHTML=date;
+    var today=new Date();
+    var date=(today.getDate()+5)+' /'+ (today.getMonth()+1)+' /' + today .getFullYear();
+    document.getElementById("currentDate5").innerHTML=date;
+    var today=new Date();
+    var date=(today.getDate()+6)+' /'+ (today.getMonth()+1)+' /' + today .getFullYear();
+    document.getElementById("currentDate6").innerHTML=date;
+    </script>
+</body>
+</html>

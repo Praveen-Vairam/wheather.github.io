@@ -1,0 +1,79 @@
+.heading{
+  justify-content: center;
+  text-align: center;
+  background: #222;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  padding: 20px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+  }
+  to {
+    text-shadow: 0 0 20px #fff;
+  }
+}
+body{
+  margin: 0px;
+
+}
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 925px;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: #000000d0;
+  background-image: url();
+  font-size: 120%;
+  color: aliceblue;
+}
+#a {grid-area: a1;}
+#b {grid-area: b1;}
+#c {grid-area: c1;}
+#d {grid-area: d1;}
+#e {grid-area: e1;}
+#f {grid-area: f1;}
+.week{
+  display: grid;
+  grid-template-areas: "a1 a1  b1 b1 c1 c1  "
+  "d1 d1 e1 e1 f1 f1";
+  grid-gap: 50px;
+  background-color: #222;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  text-decoration-style: dotted;
+  gap: 50px;
+}
+.weather.loading {
+  visibility: hidden;
+  max-height: 20px;
+  position: relative;
+}
+.weather.loading:after {
+  visibility: visible;
+  content: "Loading...";
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+.footleft{
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  width: 250px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+#footer{
+  background: #222;
+  width: 100%;
+  height: 55px;
+}
